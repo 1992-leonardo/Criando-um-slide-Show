@@ -1,0 +1,130 @@
+body {
+    font-family: Consolas;
+    color: white;
+}
+
+a:link, a:active, a:visited {
+	color: #f8f0ff;
+	/*Cores para definir do home, sobre, contato
+	text-decoration: none;*/
+}
+
+a:hover {
+	text-decoration: underline;
+	/*para que toda vez que eu passe o mouse eu veja algo diferente*/
+}
+
+/* grid 960px */
+.linha {
+	width: 960px;
+	margin: 0 auto;
+	overflow: auto;
+	padding: 5px 0;
+}
+
+.coluna {
+	padding: 0 10px;
+	float: left;
+}
+
+.col1 {
+	width: 60px;
+}
+
+.col2 {
+	width: 140px;
+}
+
+.col3 {
+	width: 220px;
+}
+
+.col4 {
+	width: 300px;
+}
+
+.col5 {
+	width: 380px;
+}
+
+.col6 {
+	width: 460px;
+}
+.col7 {
+	width: 540px;
+}
+
+.col8 {
+	width: 620px;
+}
+
+.col9 {
+	width: 700px;
+}
+
+.col10 {
+	width: 780px;
+}
+
+.col11 {
+	width: 860px;
+}
+
+.col12 {
+	width: 940px;
+}
+
+/* estilos reutilizáveis */
+
+.sem-padding{
+	padding: 10 !important;
+}
+
+.sem-margin{
+	margin: 10 !important;
+}
+
+/* aqui eu arrumo todas as listas*/
+ul li, ol li {
+	margin-bottom: 15px;
+}
+
+.conteudo-extra {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+	max-width: 60%;
+	height: auto;
+}
+
+.header {
+	background: ;
+}
+
+
+.banner {
+    width: 960px;
+    height: 500px;
+    margin: 0 auto;
+    animation: slide 10s infinite;
+    
+}
+
+@keyframes slide {
+    0%, 30% { 
+        background-image: url("img/alternativo.png");
+
+    }
+
+    35%, 65% {
+        background-image: url("img/projetando.jpeg");
+
+    }
+
+    70%, 100% {
+        background-image: url("img/plano\ de\ fundo.jpg");
+
+    }
+
+    .footer
